@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #D4D4D8;
+}
+.max-width{
+  max-width: 870px;
+  margin: auto;
+}
+.top{
+  background: url("images/top-bg.jpg") no-repeat;
+  background-size: cover;
+}
+.top h1{
+  color: orange;
+}
+main button{
+  background-color: orange;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width:720px) {
+      .border-end
+      {
+        border:none !important;
+        }
+      .rs-padding{
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+      .b4-footer .m-auto{
+        margin-left: 2px !important;
+        } 
+      }
+      
+@media (max-width:980px){
+ .last .border-end{
+   border:none !important;
+ }
+ 
+}
